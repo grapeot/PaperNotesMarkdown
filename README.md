@@ -1,6 +1,6 @@
 # Yan's paper notes tool
 
-This is a small tool used to generate "pretty" paper notes from pure Markdown.
+This is a small tool to generate "pretty" paper notes from pure [Markdown](http://en.wikipedia.org/wiki/Markdown) documents.
 
 ## Usage
 
@@ -19,7 +19,7 @@ open public/index.html # if you want to directly view it in the local browser
 coffee app host # if you wish to host at :8080 to share with others
 ```
 
-`/public` will have the result `index.html` as well as all the images.
+We provide two `.md` files as well as some images for a quickstart. `/public` will have the result `index.html` as well as all the images.
 
 ## Special syntax for Markdown
 
