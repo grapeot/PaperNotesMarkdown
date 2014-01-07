@@ -2,11 +2,11 @@
 
 ## Deployment
 
-To generate an overview document, just use any Markdown renderer. One example is
+We provide a simple coffee script to generate (and host) the html file. A sample deployment scirpt is like:
 
 ```bash
-npm install -g markdown
-md2html *.md > index.html
+npm install
+coffee app
 open index.html
 ```
 
