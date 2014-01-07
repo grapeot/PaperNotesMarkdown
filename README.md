@@ -5,6 +5,7 @@
 We provide a simple coffee script to generate (and host) the html file. A sample deployment scirpt is like:
 
 ```bash
+sudo apt-get install nodejs npm coffeescript
 npm install
 coffee app
 open index.html

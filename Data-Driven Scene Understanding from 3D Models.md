@@ -6,8 +6,8 @@
 
 ## Formulation
 * Intuition: given the result and the camera parameters, it's trivial to render the 2D image. Therefore the problem is how to _explain_ the 2D image with the 3D configurations
-* Formulation: $ \max_{R_i, t_i, b_i} p(R_i, t_i, b_i, I) $ 
-    * Maximize the consistency of the 3D configuration (rotation $R_i$, translation $t_i$ and binary selection indicator $b_i$) with the input 2D image
+* Formulation: $$ \max_{R_i, t_i, b_i} p(R_i, t_i, b_i, I) $$ 
+    * Maximize the consistency of the 3D configuration (rotation $$R_i$$, translation $$t_i$$ and binary selection indicator $$b_i$$) with the input 2D image
 * There are already approaches generating possible configuration candidates, only need to propose a way to rerank them (the contribution)
 
 ## Approach
