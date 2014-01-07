@@ -1,9 +1,10 @@
-markdown = require( "markdown" ).markdown
+markdown = require("markdown").markdown
 fs = require('fs')
 spawn = require('child_process').spawn
 _ = require('underscore')
 
 # convert the markdown to html
+console.log('Converting...')
 content = _.chain(fs.readdirSync('.'))
     .filter((fn) -> /.*\.md$/.exec(fn) != null)
     .filter((fn) -> fn != 'README.md')
