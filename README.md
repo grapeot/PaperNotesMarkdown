@@ -15,10 +15,11 @@ And to use the tool, simply
 
 ```bash
 coffee app
-open index.html # if you want to directly view it in the local browser
+open public/index.html # if you want to directly view it in the local browser
 coffee app host # if you wish to host at :8080 to share with others
-mkdir PaperNotes; cp *.png *.html PaperNotes;  # if you wish to copy the output to someone. Assume only png figures are used.
 ```
+
+`/public` will have the result `index.html` as well as all the images.
 
 ## Special syntax for Markdown
 
