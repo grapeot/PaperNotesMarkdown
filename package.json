@@ -1,0 +1,9 @@
+{
+    "name": "PaperNotes",
+    "version": "0.0.1",
+    "dependencies": {
+        "markdown": "*",
+        "connect": "*",
+        "underscore": "*"
+    }
+}
