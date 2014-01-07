@@ -4,6 +4,6 @@
     "dependencies": {
         "markdown": "*",
         "connect": "*",
-        "underscore": "*"
+        "underscore": "*",
     }
 }
